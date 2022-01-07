@@ -93,8 +93,8 @@ for (let i = 0; i < 10; i++ ) {
   Create a for-loop that runs 10 times, logging the numbers 1 through 10. Ex, on the first iteration it would log 1, on the second iteration it would log 2.
 */
 
-for (let i = 10; i >= 0; i++) {
-
+for (let i = 0; i <= 10; i++) {
+ console.log(i + '.')
 }
 
 
